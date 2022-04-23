@@ -1,0 +1,35 @@
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: #2c3e50;
+  background: #06beb6;
+}
+
+#app {
+  margin: 20px;
+}
+
+.drag:hover {
+  cursor: pointer;
+  background-color: #ffffffee;
+}
+
+#app>div {
+  background-color: #eeeeeeee;
+  will-change: left top;
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, .2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  user-select: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#card2 {
+  top: 80px;
+}
